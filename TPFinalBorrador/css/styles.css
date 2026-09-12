@@ -1,6 +1,0 @@
-/*Punto de entrada único - link a todos los css utilizados*/
-@import url("general.css");
-@import url("./pages/hero.css");
-@import url("./pages/biblioteca.css");
-@import url("./pages/galeria.css");
-@import url("./pages/contacto.css");
