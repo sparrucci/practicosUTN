@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Jin Qu - Contacto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet"
+    />    
+    <script src="https://kit.fontawesome.com/68b34e7ddd.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/x-icon" href="assets/img/logo8a.png">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="./index.html" class="logo"><i class="fa-solid fa-om"></i> Centro Jin Qu</a>
+            <ul class="nav-links">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./biblioteca.html">Biblioteca</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="page-title"> Contacto</h1>
+        <section class="main-section">
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Tu nombre" name="name" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" placeholder="Tu apellido" name="lastname" id="lastname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" placeholder="+54 351 1234567" name="phone" id="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="tuemail@mail.com" name="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reason">Motivo de contacto:</label>
+                    <select name="reason" id="reason">
+                        <option value="" disabled selected>Selecciona una opción </option>
+                        <option value="libro">Solicita tu libro </option>
+                        <option value="capsulas">Solicita tu cápsula </option>
+                        <option value="trabajo">Trabaja con nosotros </option>
+                        <option value="otro">otro </option>
+                    </select>
+                </div>
+
+                <fieldset>
+                    <legend>¿Conocías sobre ZhiNeng Qigong?</legend>
+                    <div class="radio-group">
+                        <div>
+                            <input type="radio" id="know-yes" name="know-ZhiNeng" value="Si" required>
+                            <label for="know-yes">Sí</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="know-no" name="know-ZhiNeng" value="No" required>
+                            <label for="know-no">No</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="comment">Mensaje:</label>
+                    <textarea name="comment" id="comment" placeholder="Contanos en qué te podemos ayudadr" required cols="40" rows="5" maxlength="2000" minlength="1"> </textarea>
+                </div>
+
+                <div class="form-buttons">
+                    <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+                    <button class="btn btn-secondary" type="reset">Limpiar formulario</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <ul class="footer-nav">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./biblioteca.html">Biblioteca</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>    
+            </ul>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

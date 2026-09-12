@@ -1,0 +1,40 @@
+.cards-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card{
+    background-color: var(--color-white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.08);
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;  
+    flex: 1 1 280px; /*según el espacio disponible crece o se achica, pero nunca baja de 280px*/
+}
+
+.card img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex: 1;
+}
+
+.card-body h3{
+    color: var(--color-primary);
+}
+
+.card-body p{
+    flex: 1; /*ordena el boton en relación a los largos de los textos*/
+    font-size: 0.95rem;
+}
