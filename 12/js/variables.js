@@ -26,3 +26,6 @@ const nombres = ["Silvana", "Pedro", "Juan"]
 nombres.push("Maria")
 console.log(nombres)
 
+nombres.push("Luis")
+console.log(nombres)
+
