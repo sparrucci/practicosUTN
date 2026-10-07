@@ -12,3 +12,5 @@ console.log(nombreAlumno)
 
 nombreAlumno=35
 console.log(nombreAlumno*20)
+
+
